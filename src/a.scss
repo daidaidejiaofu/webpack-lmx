@@ -1,0 +1,10 @@
+@charset "utf-8";
+$bgcolor:#f90;
+$textcolor:blue;
+body{
+  background-color:$bgcolor;
+
+}
+.hello{
+  color: $textcolor;
+}

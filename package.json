@@ -1,0 +1,41 @@
+{
+  "name": "webpack-lmx",
+  "version": "1.0.0",
+  "description": "webpack从零开始搭建一个项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx webpack",
+    "build": "npx webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daidaidejiaofu/webpack-lmx.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daidaidejiaofu/webpack-lmx/issues"
+  },
+  "homepage": "https://github.com/daidaidejiaofu/webpack-lmx#readme",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "webpack": "^4.34.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.6.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.0.0",
+    "file-loader": "^4.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "image-webpack-loader": "^5.0.0",
+    "mini-css-extract-plugin": "^0.7.0",
+    "node-sass": "^4.12.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^2.1.3",
+    "webpack-cli": "^3.3.4"
+  }
+}
