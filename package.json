@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/daidaidejiaofu/webpack-lmx#readme",
   "dependencies": {
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.13",
     "webpack": "^4.34.0"
   },
   "devDependencies": {
